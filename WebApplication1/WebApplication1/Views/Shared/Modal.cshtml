@@ -1,7 +1,60 @@
 ﻿@model NguoiDungDTO
 @{
 }
+<script>
+    $(function () {
+        $("#formExample").submit(function () {
+            var password = $("#Password").val();
+            var confirmPassword = $("#ConfirmPassword").val();
+            if (password !== confirmPassword) {
+                alert("Mật khẩu và xác nhận mật khẩu không khớp.");
+                return false; // Ngăn việc gửi biểu mẫu nếu mật khẩu không khớp
+            }
+            return true; // Cho phép gửi biểu mẫu nếu mật khẩu khớp
+        });
+    });
+    $(document).ready(function () {
+        $('#exampleModal').on('shown.bs.modal', function () {
+            $('#submitBtn').show();
+            $('#k-form-clear k-button k-button-md k-rounded-md k-button-solid k-button-solid-base').hide();
+        });
+        $('#submitBtn').click(function () {
+            // Thực hiện các thao tác cần thiết cho việc submit form, sau đó ẩn nút "Submit" và hiện nút "Clear"
+            $(this).hide();
+            $('#clearBtn').show();
+        });
+        $('#clearBtn').click(function () {
+            // Ẩn nút "Clear" và hiện nút "Submit"
+            $(this).hide();
+            $('#submitBtn').show();
+        });
 
+        $('#formExample').submit(function (e) {
+            // Ngăn chặn hành động mặc định của form (tắt modal)
+            e.preventDefault();
+            // Sử dụng AJAX để gửi dữ liệu form đi
+            $.ajax({
+                url: $(this).attr('action'),
+                type: $(this).attr('method'),
+                data: $(this).serialize(),
+                success: function (response) {
+                    // Xử lý phản hồi từ server nếu cần
+                },
+                error: function (xhr, status, error) {
+                    // Xử lý lỗi nếu cần
+                }
+            });
+        });
+
+
+        $('#exampleModal').on('hide.bs.modal', function (e) {
+            // Chạy lại trang khi người dùng nhấn nút đóng modal popup
+            window.location.reload();
+        });
+
+    });
+
+</script>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -15,39 +68,39 @@
                 <div class="demo-section">
                     @(
                         Html.Kendo().Form<WebApplication1.Models.NguoiDung>()
-                            .Name("formExample")
-                            .HtmlAttributes(new { action = @Url.Action("Index", ""), method = "POST" })
-                            .Orientation("vertical")
-                            .Validatable(v =>
-                            {
-                                v.ValidateOnBlur(true);
-                                v.ValidationSummary(vs => vs.Enable(true));
-                            })
-                            .Items(items =>
-                            {
-                                items.AddGroup()
-                                .Items(i =>
+                                .Name("formExample")
+                                .HtmlAttributes(new { action = @Url.Action("Index", ""), method = "POST" })
+                                .Orientation("vertical")
+                                .Validatable(v =>
                                 {
-                                    i.Add()
-                            .Field(f => f.UserID).InputHtmlAttributes(new { validationmessage = "Mã nhân viên không được để trống." })
-                                .Label(l => l.Text("Mã nhân viên"));
-                                    i.Add()
-                            .Field(f => f.UserName).InputHtmlAttributes(new { validationmessage = "Tên nhân viên không được để trống." })
-                                .Label(l => l.Text("Tên nhân viên"));
-                                    i.Add()
-                            .Field(f => f.Email).InputHtmlAttributes(new { validationmessage = "Email nhân viên không hợp lệ." })
-                                .Label(l => l.Text("Email"));
-                                    i.Add()
-                            .Field(f => f.Tel).InputHtmlAttributes(new { type = "number", validationmessage = "Số điện thoại không được để trống." })
-                                .Label(l => l.Text("Số điện thoại"));
-                                    i.Add()
-                            .Field(f => f.Password).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không được để trống." })
-                                .Label(l => l.Text("Mật khẩu"));
-                                i.Add()
-                            .Field(f => f.F_Password).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không khớp "})
-                            .Label(l => l.Text("Nhập lại mật khẩu"));
-                            });
-                        })
+                                    v.ValidateOnBlur(true);
+                                    v.ValidationSummary(vs => vs.Enable(true));
+                                })
+                                .Items(items =>
+                                {
+                                    items.AddGroup()
+                                    .Items(i =>
+                                    {
+                                        i.Add()
+                                .Field(f => f.UserID).InputHtmlAttributes(new { validationmessage = "Mã nhân viên không được để trống." })
+                                    .Label(l => l.Text("Mã nhân viên"));
+                                        i.Add()
+                                .Field(f => f.UserName).InputHtmlAttributes(new { validationmessage = "Tên nhân viên không được để trống." })
+                                    .Label(l => l.Text("Tên nhân viên"));
+                                        i.Add()
+                                .Field(f => f.Email)
+                                    .Label(l => l.Text("Email"));
+                                        i.Add()
+                                .Field(f => f.Tel).InputHtmlAttributes(new { type = "number", validationmessage = "Số điện thoại không được để trống." })
+                                    .Label(l => l.Text("Số điện thoại"));
+                                        i.Add()
+                                .Field(f => f.Password).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không được để trống." })
+                                    .Label(l => l.Text("Mật khẩu"));
+                                        i.Add()
+                                    .Field(f => f.ConfirmPassword).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không được để trống." })
+                                    .Label(l => l.Text("Nhập lại mật khẩu"));
+                                    });
+                        }).Events(ev => ev.ValidateField("onValidateField").Clear("onFormClear"))
                         )
                 </div>
             </div>
@@ -56,3 +109,25 @@
     </div>
 </div>
 
+<script>
+    function onFormSubmit(e) {
+        e.preventDefault();
+        var form = e.sender;
+        if (form.validate()) {
+            var validationSuccess = $("#validation-success");
+            validationSuccess.html("<div class='k-messagebox k-messagebox-success'>Form data is valid!</div>");
+            $(this).hide();
+            $('#clearBtn').show();
+        }
+    }
+
+    function onFormClear(ev) {
+        var validationSuccess = $("#validation-success");
+        validationSuccess.html("");
+    }
+
+    function onValidateField(ev) {
+        var validationSuccess = $("#validation-success");
+        validationSuccess.html("");
+    }
+</script>

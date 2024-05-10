@@ -95,7 +95,6 @@
                             columns.Bound(p => p.Password).Width(120).Title("Mật khẩu"); ;
                             columns.Command(command => { command.Edit().Text("Sửa"); command.Destroy().Text("Xóa"); }).Width(250);
                         })
-                        .Editable(editable => editable.Mode(GridEditMode.PopUp))
                         .Editable(editable => editable.Mode(GridEditMode.PopUp).ConfirmDelete("Bạn có muốn xóa không?").DisplayDeleteConfirmation("Bạn có muốn xóa không?"))
                         .Pageable()
                         .Sortable()
@@ -104,7 +103,12 @@
                         .DataSource(dataSource => dataSource
                         .Ajax()
                         .PageSize(10)
-                        .Model(model => model.Id(p => p.UserID))
+                        .Model(model =>
+                        {
+                            model.Id(p => p.UserID);
+                            model.Field(p => p.Password).Editable(true);
+                            model.Field(p => p.ConfirmPassword).Editable(true);
+                        })
                         .Read(read => read.Action("Grid_Read", "Home"))
                         .Update(update => update.Action("EditingPopup_Update", "Home"))
                         .Destroy(update => update.Action("EditingPopup_Destroy", "Home"))

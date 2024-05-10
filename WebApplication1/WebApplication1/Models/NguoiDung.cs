@@ -8,25 +8,37 @@ namespace WebApplication1.Models
     public class NguoiDung
     {
         [Key]
+        [Display(Name = "Mã nhân viên")]
         [Required(ErrorMessage = "Mã nhân viên không được để trống")]
         public string UserID { get; set; }
 
-
+        [Display(Name = "Tên nhân viên")]
         [Required(ErrorMessage = "Tên nhân viên không được để trống")]
         public string UserName { get; set; }
+
+        [Display(Name = "Số điện thoại")]
         public string Tel { get; set; }
 
-        [RegularExpression(@"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-‌​]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$", ErrorMessage = "Email is not valid")]
-        [Display(Name = "Account Email:")]
+        [RegularExpression(@"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-‌​]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$", ErrorMessage = "Email không đúng!")]
+        [Display(Name = "Email:")]
         public string Email { get; set; }
 
+        [Required]
+        [Display(Name = "Mật khẩu:")]
         [DataType(DataType.Password)]
-        public string Password { get; set; }
-
+        public string Password
+        {
+            get;
+            set;
+        }
         [NotMapped]
-        [Compare("Password", ErrorMessage = "Mật khẩu không khớp")]
+        [Display(Name = "Nhập lại mật khẩu:")]
         [DataType(DataType.Password)]
-        public string F_Password { get; set; }
+        public string ConfirmPassword
+        {
+            get;
+            set;
+        }
 
         public byte Disable { get; set; }
        
