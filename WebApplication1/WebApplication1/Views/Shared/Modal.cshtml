@@ -74,7 +74,7 @@
                                 .Validatable(v =>
                                 {
                                     v.ValidateOnBlur(true);
-                                    v.ValidationSummary(vs => vs.Enable(true));
+                                    v.ValidationSummary(vs => vs.Enable(false));
                                 })
                                 .Items(items =>
                                 {
@@ -88,7 +88,7 @@
                                 .Field(f => f.UserName).InputHtmlAttributes(new { validationmessage = "Tên nhân viên không được để trống." })
                                     .Label(l => l.Text("Tên nhân viên"));
                                         i.Add()
-                                .Field(f => f.Email)
+                            .Field(f => f.Email).InputHtmlAttributes(new { validationmessage = "Email không được để trống." })
                                     .Label(l => l.Text("Email"));
                                         i.Add()
                                 .Field(f => f.Tel).InputHtmlAttributes(new { type = "number", validationmessage = "Số điện thoại không được để trống." })

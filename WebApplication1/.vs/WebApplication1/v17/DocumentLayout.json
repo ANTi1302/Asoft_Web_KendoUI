@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,24 +31,8 @@
       "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Service\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Service\\ApplicationDbContext.cs",
@@ -54,12 +54,11 @@
               "RelativeToolTip": "WebApplication1\\Service\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T01:24:44.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T01:24:44.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
@@ -67,62 +66,63 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T09:04:03.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T09:04:03.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
               "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGoAAAAjAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAwwK8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T04:35:29.199Z"
+              "WhenOpened": "2024-05-07T04:35:29.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAAAHkAAAAJAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGkAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-07T04:22:59.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Modal.cshtml",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\Modal.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\Modal.cshtml",
               "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\Modal.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\Modal.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAGYAAABhAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAAEsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T08:24:00.175Z"
+              "WhenOpened": "2024-05-07T08:24:00.175Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "NguoiDung.cs",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Models\\NguoiDung.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\NguoiDung.cs",
               "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Models\\NguoiDung.cs",
               "RelativeToolTip": "WebApplication1\\Models\\NguoiDung.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwB8AAAAQAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-09T03:24:59.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
@@ -142,7 +142,8 @@
               "RelativeToolTip": "WebApplication1\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAkwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T09:46:42.16Z"
+              "WhenOpened": "2024-05-08T09:46:42.16Z",
+              "EditorCaption": ""
             }
           ]
         }

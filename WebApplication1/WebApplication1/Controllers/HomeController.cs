@@ -173,7 +173,7 @@ namespace WebApplication1.Controllers
             }
             else
             {
-                TempData["View"] = "Validation";
+                TempData["View"] = "Home";
                 return View("Success");
             }
         }

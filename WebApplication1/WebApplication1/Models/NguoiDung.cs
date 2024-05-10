@@ -21,6 +21,7 @@ namespace WebApplication1.Models
 
         [RegularExpression(@"^[A-Za-z0-9](([_\.\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\.\-‌​]?[a-zA-Z0-9]+)*)\.([A-Za-z]{2,})$", ErrorMessage = "Email không đúng!")]
         [Display(Name = "Email:")]
+        [EmailAddress]
         public string Email { get; set; }
 
         [Required]
