@@ -100,6 +100,7 @@
                         .Sortable()
                         .Scrollable()
                         .HtmlAttributes(new { style = "height:500px;", css = "table table-bordered" })
+                        .Events(e => e.Edit("hideIdField"))
                         .DataSource(dataSource => dataSource
                         .Ajax()
                         .PageSize(10)
@@ -115,6 +116,10 @@
                         )
                         )
 
-   
+   <script>
+        function hideIdField(e) {
+            e.container.find("input:first").prop('disabled', true);
+        }
+   </script>
 </body>
 </html>
