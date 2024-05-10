@@ -1,0 +1,58 @@
+﻿@model NguoiDungDTO
+@{
+}
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Thêm nhân viên</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="demo-section">
+                    @(
+                        Html.Kendo().Form<WebApplication1.Models.NguoiDung>()
+                            .Name("formExample")
+                            .HtmlAttributes(new { action = @Url.Action("Index", ""), method = "POST" })
+                            .Orientation("vertical")
+                            .Validatable(v =>
+                            {
+                                v.ValidateOnBlur(true);
+                                v.ValidationSummary(vs => vs.Enable(true));
+                            })
+                            .Items(items =>
+                            {
+                                items.AddGroup()
+                                .Items(i =>
+                                {
+                                    i.Add()
+                            .Field(f => f.UserID).InputHtmlAttributes(new { validationmessage = "Mã nhân viên không được để trống." })
+                                .Label(l => l.Text("Mã nhân viên"));
+                                    i.Add()
+                            .Field(f => f.UserName).InputHtmlAttributes(new { validationmessage = "Tên nhân viên không được để trống." })
+                                .Label(l => l.Text("Tên nhân viên"));
+                                    i.Add()
+                            .Field(f => f.Email).InputHtmlAttributes(new { validationmessage = "Email nhân viên không hợp lệ." })
+                                .Label(l => l.Text("Email"));
+                                    i.Add()
+                            .Field(f => f.Tel).InputHtmlAttributes(new { type = "number", validationmessage = "Số điện thoại không được để trống." })
+                                .Label(l => l.Text("Số điện thoại"));
+                                    i.Add()
+                            .Field(f => f.Password).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không được để trống." })
+                                .Label(l => l.Text("Mật khẩu"));
+                                i.Add()
+                            .Field(f => f.F_Password).InputHtmlAttributes(new { type = "password", validationmessage = "Mật khẩu không khớp "})
+                            .Label(l => l.Text("Nhập lại mật khẩu"));
+                            });
+                        })
+                        )
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+

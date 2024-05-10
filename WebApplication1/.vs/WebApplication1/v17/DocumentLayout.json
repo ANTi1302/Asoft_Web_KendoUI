@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\modal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|e:\\training_2024\\asoft_web_kendoui\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{888EA8C9-BFD7-405D-BBEB-D5B232959661}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T09:04:03.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T04:35:29.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAGoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T04:22:59.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-08T08:35:35.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modal.cshtml",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\Modal.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\Modal.cshtml",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Views\\Shared\\Modal.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\Modal.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAACTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T08:24:00.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\NguoiDung.cs",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T03:24:59.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "E:\\TRAINING_2024\\Asoft_Web_KendoUI\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:46:42.16Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

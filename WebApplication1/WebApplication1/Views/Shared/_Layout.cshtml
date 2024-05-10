@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApplication1.styles.css" asp-append-version="true" />
+	<link href="https://kendo.cdn.telerik.com/themes/7.0.2/default/default-ocean-blue.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://unpkg.com/jszip/dist/jszip.min.js"></script>
+	<script src="https://cdn.kendostatic.com/2024.1.319/js/kendo.all.min.js"></script>
+	<script src="https://cdn.kendostatic.com/2024.1.319/js/kendo.aspnetmvc.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.core.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.userevents.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.draganddrop.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.popup.min.js   "></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.fx.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.window.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/***/kendo.all.min.js"></script>
+
+
+    <!-- Rest of the HTML -->
+    <script src="../wwwroot/js/kendo-ui-license.js"></script>
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
